@@ -29,7 +29,7 @@ import {
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
-    <View style={styles.sectionContainer}>
+    <View testID='welcome' style={styles.sectionContainer}>
       <Text
         style={[
           styles.sectionTitle,

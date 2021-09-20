@@ -6,7 +6,7 @@
     "ios": {
       "type": "ios.app",
       "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/demo01.app",
-      "build": "xcodebuild -workspace ./ios/demo01.xcworkspace -UseNewBuildSystem=NO -scheme demo01 -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build"
+      "build": "xcodebuild -workspace ios/demo01.xcworkspace -scheme demo01 -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build"
     },
     "android": {
       "type": "android.apk",
