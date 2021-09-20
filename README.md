@@ -14,7 +14,7 @@ $npx react-native start
 $npx react-native run-ios
 ```
 
-## Fix issues
+## [Fix issues](https://github.com/facebook/react-native/issues/31480)
 
 File ios/Podfile
 ```
