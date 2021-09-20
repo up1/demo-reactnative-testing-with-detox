@@ -14,6 +14,22 @@ $npx react-native start
 $npx react-native run-ios
 ```
 
+## Fix issues
+
+File ios/Podfile
+```
+# use_flipper!()
+```
+
+Update pod
+```
+$rm -rf ~/Library/Developer/Xcode/DerivedData/*
+$rm -rf Pods
+$rm -rf ios/build
+$pod install
+```
+
+
 ## Run dev mode with iOS and custom configurations
 ```
 $npm run ios
