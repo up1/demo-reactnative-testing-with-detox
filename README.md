@@ -24,8 +24,9 @@ File ios/Podfile
 Update pod
 ```
 $rm -rf ~/Library/Developer/Xcode/DerivedData/*
+$cd ios/
 $rm -rf Pods
-$rm -rf ios/build
+$rm -rf build
 $pod install
 ```
 
